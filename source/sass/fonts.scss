@@ -1,18 +1,18 @@
-// @font-face {
-//   font-family: "Oswald";
-//   src: url("../fonts/oswaldmedium.woff2") format("woff2"),
-//     url("../fonts/oswaldmedium.woff") format("woff");
-//   font-weight: bold;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-weight: bold;
+  font-family: "Work-sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/work-sans-v7-latin-900.woff2") format("woff2"),
+    url("../fonts/work-sans-v7-latin-900.woff") format("woff");
+}
 
 
-// @font-face {
-//   font-family: "Oswald";
-//   src: url("../fonts/oswaldregular.woff2") format("woff2"),
-//     url("../fonts/oswaldregular.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-weight: normal;
+  font-family: "Work-sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/work-sans-v7-latin-regular.woff2") format("woff2"),
+    url("../fonts/work-sans-v7-latin-regular.woff2") format("woff");
+}

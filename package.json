@@ -1,11 +1,10 @@
 {
-  "name": "denim",
-  "autor": "Evgeny Shekhanov <neeptoon@mail.ru>",
-  "version": "1.0.0",
+  "name": "cat-energy-19",
+  "autor": "I'am",
+  "version": "17.0.0",
   "private": true,
-  "description": "",
+  "description": "Личный проект «Кэт энерджи» от HTML Academy",
   "devDependencies": {
-    "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "^9.7.6",
     "browser-sync": "^2.26.7",
     "del": "^4.1.1",
@@ -22,11 +21,11 @@
     "gulp-sourcemaps": "2.6.x",
     "gulp-svgstore": "^7.0.1",
     "gulp-webp": "^4.0.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "npx": "^10.2.2",
     "posthtml-include": "^1.3.3",
-    "stylelint": "10.1.x",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "stylelint": "^13.3.3",
+    "stylelint-order": "^4.0.0"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
@@ -36,10 +35,14 @@
     "start": "gulp start"
   },
   "browserslist": [
-    "last 2 versions",
-    "IE 11",
-    "Firefox ESR"
+    "last 2 version",
+    "not dead",
+    "not ie <= 11"
   ],
+  "stylelint": {
+    "extends": "./stylelint.config.rational-order.js",
+    "plugins": "stylelint-order"
+  },
   "editorconfig-cli": [
     "*.json",
     "source/*.html"
