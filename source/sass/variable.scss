@@ -10,13 +10,13 @@
 // $mainFontWeight: 400;
 // $mainLineHeight: 18px;
 
-$desktopWidth: 1300px;
+$desktopWidth: 1366px;
 $tabletWidth: 768px;
 $phoneWidth: 320px;
 
-$mobilePadding: 20px;
-$tabletPadding: 30px;
-$desktopPadding: 100px;
+$mobilePadding: 15px;
+$tabletPadding: 45px;
+$desktopPadding: 98px;
 
 /*
  All colors taken from:
@@ -24,15 +24,12 @@ $desktopPadding: 100px;
 */
 
 // Main color
-$line-color: #d9d9d9;
-$icon-color: #444444;
-$main-color: #000000;
-$default-color: #ffffff;
-$primary-color: #63a73a;
-$second-color: #f2f2f2;
-$primary-button-color: #68b738;
-$primary-button-color-hover: #5eaa2f;
-$primary-button-textcolor-hover: #8fc46e;
+$light-background-color: #f1f2f4;
+$dark-background-color: #151c22;
+$dark-letter-color: #151c22;
+$grey-letter-color: #727a82;
+$light-letter-color: #ffffff;
+
 
 // retina
 $retina-dpi: 144dpi;
