@@ -14,15 +14,14 @@
         <include src="build/img/sprite.svg"></include>
     </div>
 
-    <header>
+    <header class="">
         <a href="">
             <img src="img/icon-logo.svg" alt="Logo" width="75" height="17">
         </a>
 
         <nav>
             <ul>
-                <li>
-                    <a href="#">Woman</a></li>
+                <li><a href="#">Woman</a></li>
                 <li><a href="#">Man</a></li>
                 <li><a href="#">New</a></li>
             </ul>
@@ -37,16 +36,254 @@
     <main>
         <section>
             <h1>an internet shop of clothes </h1>
+
             <picture>
-                <source type="image/webp" media="(min-width: 1366px)" srcset="img/denim-main@1x.webp 1x,
-                img/denim-main@1x.webp 1x">
-                <source media="(min-width: )" srcset="">
-                <img src="" srcset="" alt="">
+                <source type="image/webp" media="(min-width: 1366px)"
+                    srcset="img/denim-main-desktop@1x.webp 1x, img/denim-main-desktop@2x.webp 2x" />
+                <source media="(min-width: 1300px)"
+                    srcset="img/denim-main-desktop@1x.png 1x, img/denim-main-desktop@2x.png 2x" />
+                <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/denim-main-tablet.webp 1x, img/denim-main-tablet@2x.webp 2x" />
+                <source media="(min-width: 768px)"
+                    srcset="img/denim-main-tablet.png 1x, img/denim-main-tablet@2x.png 2x" />
+                <source type="image/webp" srcset="img/denim-main@1x.webp 1x, img/denim-main@2x.webp 2x" />
+                <img src="img/denim-main@1x.jpg" srcset="img/denim-main@2x.jpg" alt="an internet shop of clothes" />
             </picture>
 
+            <p>The quality you deserve</p>
 
+            <a href="#">Check new collection</a>
+        </section>
+
+        <section>
+            <h2>Bestsellers</h2>
+
+            <ul>
+                <!-- Первая вещь -->
+                <li>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/best-thing-1-desktop.webp 1x, img/best-thing-1-desktop@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/best-thing-1-desktop@1x.png 1x, img/best-thing-1-desktop@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/best-thing-1-tablet.webp 1x, img/best-thing-1-tablet@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/best-thing-1-tablet.png 1x, img/best-thing-1-tablet@2x.png 2x" />
+                        <source type="image/webp" srcset="img/best-thing-1.webp 1x, img/best-thing-1@2x.webp 2x" />
+                        <img src="img/best-thing-1.jpg" srcset="img/best-thing-1@2x.jpg 2x" alt="Jacket" />
+                    </picture>
+                    <a href="">
+                        <dl>
+                            <dt>Jacket</dt>
+                            <dd>$ 120</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- Вторая вещь -->
+                <li>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/best-thing-2-desktop.webp 1x, img/best-thing-2-desktop@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/best-thing-2-desktop@1x.png 1x, img/best-thing-2-desktop@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/best-thing-2-tablet.webp 1x, img/best-thing-2-tablet@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/best-thing-2-tablet.png 1x, img/best-thing-2-tablet@2x.png 2x" />
+                        <source type="image/webp" srcset="img/best-thing-2.webp 1x, img/best-thing-2@2x.webp 2x" />
+                        <img src="img/best-thing-2.jpg" srcset="img/best-thing-2@2x.jpg 2x" alt="Jacket" />
+                    </picture>
+                    <a href="">
+                        <dl>
+                            <dt>Overalls</dt>
+                            <dd>$ 140</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- Третья вещь -->
+                <li>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/best-thing-3-desktop.webp 1x, img/best-thing-3-desktop@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/best-thing-3-desktop@1x.png 1x, img/best-thing-3-desktop@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/best-thing-3-tablet.webp 1x, img/best-thing-3-tablet@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/best-thing-3-tablet.png 1x, img/best-thing-3-tablet@2x.png 2x" />
+                        <source type="image/webp" srcset="img/best-thing-3.webp 1x, img/best-thing-3@2x.webp 2x" />
+                        <img src="img/best-thing-3.jpg" srcset="img/best-thing-3@2x.jpg 2x" alt="Jacket" />
+                    </picture>
+                    <a href="">
+                        <dl>
+                            <dt>Jacket</dt>
+                            <dd>$ 90</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- Четвертая вещь -->
+                <li>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/best-thing-4-desktop.webp 1x, img/best-thing-4-desktop@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/best-thing-4-desktop@1x.png 1x, img/best-thing-4-desktop@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/best-thing-4-tablet.webp 1x, img/best-thing-4-tablet@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/best-thing-4-tablet.png 1x, img/best-thing-4-tablet@2x.png 2x" />
+                        <source type="image/webp" srcset="img/best-thing-4.webp 1x, img/best-thing-4@2x.webp 2x" />
+                        <img src="img/best-thing-4.jpg" srcset="img/best-thing-4@2x.jpg 2x" alt="Jacket" />
+                    </picture>
+                    <a href="">
+                        <dl>
+                            <dt>Overalls</dt>
+                            <dd>$ 160</dd>
+                        </dl>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#">View all</a>
+        </section>
+
+        <section>
+            <h2>Street fashion collection</h2>
+            <p>Street fashion collection</p>
+            <p>Fall 2019</p>
+            <picture>
+                <source type="image/webp" media="(min-width: 1366px)"
+                    srcset="img/jeans-desktop.webp 1x, img/denim-intro-desktop@2x.webp 2x" />
+                <source media="(min-width: 1300px)"
+                    srcset="img/denim-intro-desktop.png 1x, img/denim-intro-desktop@2x.png 2x" />
+                <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/denim-intro-tablet.webp 1x, img/denim-intro-tablet@2x.webp 2x" />
+                <source media="(min-width: 768px)"
+                    srcset="img/denim-intro-tablet.png 1x, img/denim-intro-tablet@2x.png 2x" />
+                <source type="image/webp" srcset="img/denim-intro@1x.webp 1x, img/denim-intro@2x.webp 2x" />
+                <img src="img/denim-intro@1x.png" srcset="img/denim-intro@2x.png 2x" alt="Street fashion collection" />
+            </picture>
+            <a href="#">Shop now</a>
+        </section>
+
+        <section>
+            <h2>Shop by categories</h2>
+            <ul>
+                <!-- 1 category -->
+                <li>
+                    <a href="#">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1366px)"
+                                srcset="img/jeans-desktop@1x.webp 1x, img/jeans-desktop@2x.webp 2x" />
+                            <source media="(min-width: 1300px)"
+                                srcset="img/jeans-desktop@1x.png 1x, img/jeans-desktop@2x.png 2x" />
+                            <source type="image/webp" media="(min-width: 768px)"
+                                srcset="img/jeans-tablet@1x.webp 1x, img/jeans-tablet@2x.webp 2x" />
+                            <source media="(min-width: 768px)"
+                                srcset="img/jeans-tablet@1x.png 1x, img/jeans-tablet@2x.png 2x" />
+                            <source type="image/webp" srcset="img/jeans@1x.webp 1x, img/jeans@2x.webp 2x" />
+                            <img src="img/jeans@1x.png" srcset="img/jeans@2x.png 2x" alt="Street fashion collection" />
+                        </picture>
+                        <h3>Jeans</h3>
+                    </a>
+                </li>
+
+                <!-- 2 category -->
+                <li>
+                    <a href="#">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1366px)"
+                                srcset="img/shirts-desktop.webp 1x, img/shirts-desktop@2x.webp 2x" />
+                            <source media="(min-width: 1300px)"
+                                srcset="img/shirts-desktop.png 1x, img/shirts-desktop@2x.png 2x" />
+                            <source type="image/webp" media="(min-width: 768px)"
+                                srcset="img/shirts-tablet.webp 1x, img/shirts-tablet@2x.webp 2x" />
+                            <source media="(min-width: 768px)"
+                                srcset="img/shirts-tablet.png 1x, img/shirts-tablet@2x.png 2x" />
+                            <source type="image/webp" srcset="img/shirts.webp 1x, img/shirts@2x.webp 2x" />
+                            <img src="img/shirts.png" srcset="img/shirts@2x.png 2x" alt="Street fashion collection" />
+                        </picture>
+                        <h3>Shirts</h3>
+                    </a>
+                </li>
+
+                <!-- 3 category -->
+                <li>
+                    <a href="#">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1366px)"
+                                srcset="img/overalls-desktop.webp 1x, img/overalls-desktop@2x.webp 2x" />
+                            <source media="(min-width: 1300px)"
+                                srcset="img/overalls-desktop.png 1x, img/overalls-desktop@2x.png 2x" />
+                            <source type="image/webp" media="(min-width: 768px)"
+                                srcset="img/overalls-tablet.webp 1x, img/overalls-tablet@2x.webp 2x" />
+                            <source media="(min-width: 768px)"
+                                srcset="img/overalls-tablet.png 1x, img/overalls-tablet@2x.png 2x" />
+                            <source type="image/webp" srcset="img/overalls.webp 1x, img/overalls@2x.webp 2x" />
+                            <img src="img/overalls.png" srcset="img/overalls@2x.png 2x"
+                                alt="Street fashion collection" />
+                        </picture>
+                        <h3>Overalls</h3>
+                    </a>
+                </li>
+
+                <!-- 4 category -->
+                <li>
+                    <a href="#">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1366px)"
+                                srcset="img/jackets-desktop.webp 1x, img/jackets-desktop@2x.webp 2x" />
+                            <source media="(min-width: 1300px)"
+                                srcset="img/jackets-desktop.png 1x, img/jackets-desktop@2x.png 2x" />
+                            <source type="image/webp" media="(min-width: 768px)"
+                                srcset="img/jackets-tablet.webp 1x, img/jackets-tablet@2x.webp 2x" />
+                            <source media="(min-width: 768px)"
+                                srcset="img/jackets-tablet.png 1x, img/jackets-tablet@2x.png 2x" />
+                            <source type="image/webp" srcset="img/jackets.webp 1x, img/jackets@2x.webp 2x" />
+                            <img src="img/jackets.png" srcset="img/jackets@2x.png 2x" alt="Street fashion collection" />
+                        </picture>
+                        <h3>Jackets</h3>
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
+
+    <footer>
+        <a href="">
+            <img src="img/icon-logo.svg" alt="Logo" width="75" height="17">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <ul>
+            <li><a href="#"><span>our shop in the facebook</span><svg>
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg></a></li>
+            <li><a href="#"><span>our shop in the instagramm</span><svg>
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg></a></li>
+            <li><a href="#"><span>our shop in the pinterest</span><svg>
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg></a></li>
+            <li><a href="#"><span>our shop in the twitter</span><svg>
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg></a></li>
+        </ul>
+
+    </footer>
 
 
 </body>
