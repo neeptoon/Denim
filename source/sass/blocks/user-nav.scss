@@ -1,0 +1,13 @@
+.user-nav__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.user-nav__icon {
+    fill: none;
+    stroke: $dark-letter-color;
+
+    &:hover,
+    &:focus {
+        stroke: $grey-letter-color;
+    }
+}

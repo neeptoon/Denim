@@ -1,18 +1,27 @@
 @font-face {
-  font-weight: bold;
-  font-family: "Work-sans";
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/work-sans-v7-latin-900.woff2") format("woff2"),
-    url("../fonts/work-sans-v7-latin-900.woff") format("woff");
+    font-family: "Work-sans";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("../fonts/work-sans-v7-latin-900.woff2") format("woff2"),
+        url("../fonts/work-sans-v7-latin-900.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Work-sans";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/work-sans-v7-latin-500.woff2") format("woff2"),
+        url("../fonts/work-sans-v7-latin-500.woff") format("woff");
 }
 
 
 @font-face {
-  font-weight: normal;
-  font-family: "Work-sans";
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/work-sans-v7-latin-regular.woff2") format("woff2"),
-    url("../fonts/work-sans-v7-latin-regular.woff2") format("woff");
+    font-family: "Work-sans";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../fonts/work-sans-v7-latin-regular.woff2") format("woff2"),
+        url("../fonts/work-sans-v7-latin-regular.woff2") format("woff");
 }

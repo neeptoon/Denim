@@ -1,0 +1,10 @@
+.header {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+
+
+}
+
+.header__logo {
+    justify-self: center;
+}
