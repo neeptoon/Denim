@@ -1,0 +1,29 @@
+.page {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'main'
+        'footer';
+    padding: 0 $mobilePadding;
+
+    outline: 2px solid tomato;
+    overflow-x: hidden;
+}
+
+.page__header {
+    display: grid;
+    grid-area: header;
+
+    outline: 1px solid red;
+}
+
+.page__main {
+    grid-area: main;
+
+    outline: 1px solid blue;
+}
+
+.page__footer {
+    grid-area: footer;
+    outline: 1px solid green;
+}
