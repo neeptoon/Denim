@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.min.css" />
-    <title>Denim</title>
+    <title>Nimes</title>
 </head>
 
 <body class="page">
@@ -48,25 +48,31 @@
     </header>
 
     <main class="page__main main">
-        <section>
-            <h1>an internet shop of clothes </h1>
+        <h1 class="visually-hidden">an internet shop of clothes </h1>
 
-            <picture>
-                <source type="image/webp" media="(min-width: 1366px)"
-                    srcset="img/denim-main-desktop@1x.webp 1x, img/denim-main-desktop@2x.webp 2x" />
-                <source media="(min-width: 1300px)"
-                    srcset="img/denim-main-desktop@1x.png 1x, img/denim-main-desktop@2x.png 2x" />
-                <source type="image/webp" media="(min-width: 768px)"
-                    srcset="img/denim-main-tablet.webp 1x, img/denim-main-tablet@2x.webp 2x" />
-                <source media="(min-width: 768px)"
-                    srcset="img/denim-main-tablet.png 1x, img/denim-main-tablet@2x.png 2x" />
-                <source type="image/webp" srcset="img/denim-main@1x.webp 1x, img/denim-main@2x.webp 2x" />
-                <img src="img/denim-main@1x.jpg" srcset="img/denim-main@2x.jpg" alt="an internet shop of clothes" />
-            </picture>
+        <section class="denim">
+            <h2 class="visually-hidden">Our new collection</h2>
+            <div class="denim__image-wrapper">
+                <picture>
+                    <source type="image/webp" media="(min-width: 1366px)"
+                        srcset="img/denim-main-desktop@1x.webp 1x, img/denim-main-desktop@2x.webp 2x" />
+                    <source media="(min-width: 1300px)"
+                        srcset="img/denim-main-desktop@1x.png 1x, img/denim-main-desktop@2x.png 2x" />
+                    <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/denim-main-tablet.webp 1x, img/denim-main-tablet@2x.webp 2x" />
+                    <source media="(min-width: 768px)"
+                        srcset="img/denim-main-tablet.png 1x, img/denim-main-tablet@2x.png 2x" />
+                    <source type="image/webp" srcset="img/denim-main@1x.webp 1x, img/denim-main@2x.webp 2x" />
+                    <img class="denim__pic" src="img/denim-main@1x.jpg" srcset="img/denim-main@2x.jpg"
+                        alt="an internet shop of clothes" />
+                </picture>
+            </div>
 
-            <p>The quality you deserve</p>
+            <p class="denim__slogan">The quality you deserve</p>
 
-            <a href="#">Check new collection</a>
+            <img class="denim__name" src="img/DENIM.svg" alt="name of collection">
+
+            <a class="denim__link button" href="#">Check new collection</a>
         </section>
 
         <section>
@@ -283,16 +289,16 @@
         </nav>
 
         <ul>
-            <li><a href="#"><span>our shop in the facebook</span><svg width='50'>
+            <li><a href="#"><span>our shop in the facebook</span><svg width="50">
                         <use xlink:href="img/sprite.svg#icon-twitter"></use>
                     </svg></a></li>
-            <li><a href="#"><span>our shop in the instagramm</span><svg width='50'>
+            <li><a href="#"><span>our shop in the instagramm</span><svg width="50">
                         <use xlink:href="img/sprite.svg#icon-twitter"></use>
                     </svg></a></li>
-            <li><a href="#"><span>our shop in the pinterest</span><svg width='50'>
+            <li><a href="#"><span>our shop in the pinterest</span><svg width="50">
                         <use xlink:href="img/sprite.svg#icon-twitter"></use>
                     </svg></a></li>
-            <li><a href="#"><span>our shop in the twitter</span><svg width='50'>
+            <li><a href="#"><span>our shop in the twitter</span><svg width="50">
                         <use xlink:href="img/sprite.svg#icon-twitter"></use>
                     </svg></a></li>
         </ul>
