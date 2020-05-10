@@ -1,3 +1,15 @@
-.site-nav__item:not(:last-child) {
-    margin-right: 25px;
+.site-nav {
+    margin: 0;
+    width: 75%;
+    list-style: none;
+}
+
+.site-nav__item {
+    &:hover {
+        opacity: 0.5;
+    }
+
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
 }
