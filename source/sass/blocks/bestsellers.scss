@@ -1,0 +1,42 @@
+.bestsellers {
+    padding: 52px $mobilePadding 65px;
+}
+
+.bestsellers__heading {
+    margin: 0 0 33px;
+    font-size: 1.625rem;
+    line-height: 1.2;
+}
+
+.bestsellers__list {
+    display: grid;
+    margin: 0 0 30px;
+    padding: 0;
+    column-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    row-gap: 25px;
+
+    list-style: none;
+}
+
+.bestsellers__item {
+    justify-self: center;
+}
+
+.bestsellers__pic {
+    margin-bottom: 10px;
+}
+
+.bestsellers__desc {
+    margin: 0;
+}
+
+.bestsellers__thing {
+    margin-bottom: 5px;
+}
+
+.bestsellers__price {
+    margin: 0;
+    font-weight: 900;
+    font-size: 0.9rem;
+}

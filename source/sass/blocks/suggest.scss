@@ -1,0 +1,12 @@
+.suggest {
+    display: block;
+    justify-content: center;
+
+    text-align: center;
+
+    & span {
+        padding: 0 5px;
+        box-shadow: $light-letter-color 0 3px 0,
+                    $dark-letter-color 0 5px 0;
+    }
+}

@@ -9,9 +9,6 @@
 
 .denim__pic {
     position: relative;
-    width: 202px;
-    height: 249px;
-
     z-index: 2;
 }
 
@@ -29,7 +26,7 @@
         position: absolute;
         top: 190px;
         left: 113px;
-        
+
         transform: scale(-1, 1);
     }
 }

@@ -75,12 +75,12 @@
             <a class="denim__link button" href="#">Check new collection</a>
         </section>
 
-        <section>
-            <h2>Bestsellers</h2>
+        <section class="bestsellers">
+            <h2 class="bestsellers__heading">Bestsellers</h2>
 
-            <ul>
+            <ul class="bestsellers__list">
                 <!-- Первая вещь -->
-                <li>
+                <li class="bestsellers__item">
                     <picture>
                         <source type="image/webp" media="(min-width: 1366px)"
                             srcset="img/best-thing-1-desktop.webp 1x, img/best-thing-1-desktop@2x.webp 2x" />
@@ -91,18 +91,19 @@
                         <source media="(min-width: 768px)"
                             srcset="img/best-thing-1-tablet.png 1x, img/best-thing-1-tablet@2x.png 2x" />
                         <source type="image/webp" srcset="img/best-thing-1.webp 1x, img/best-thing-1@2x.webp 2x" />
-                        <img src="img/best-thing-1.jpg" srcset="img/best-thing-1@2x.jpg 2x" alt="Jacket" />
+                        <img class="bestsellers__pic" src="img/best-thing-1.jpg" srcset="img/best-thing-1@2x.jpg 2x"
+                            alt="Jacket" />
                     </picture>
-                    <a href="">
-                        <dl>
-                            <dt>Jacket</dt>
-                            <dd>$ 120</dd>
+                    <a class="bestsellers__link" href="#">
+                        <dl class="bestsellers__desc">
+                            <dt class="bestsellers__thing">Jacket</dt>
+                            <dd class="bestsellers__price">$ 120</dd>
                         </dl>
                     </a>
                 </li>
 
                 <!-- Вторая вещь -->
-                <li>
+                <li class="bestsellers__item">
                     <picture>
                         <source type="image/webp" media="(min-width: 1366px)"
                             srcset="img/best-thing-2-desktop.webp 1x, img/best-thing-2-desktop@2x.webp 2x" />
@@ -113,18 +114,19 @@
                         <source media="(min-width: 768px)"
                             srcset="img/best-thing-2-tablet.png 1x, img/best-thing-2-tablet@2x.png 2x" />
                         <source type="image/webp" srcset="img/best-thing-2.webp 1x, img/best-thing-2@2x.webp 2x" />
-                        <img src="img/best-thing-2.jpg" srcset="img/best-thing-2@2x.jpg 2x" alt="Jacket" />
+                        <img class="bestsellers__pic" src="img/best-thing-2.jpg" srcset="img/best-thing-2@2x.jpg 2x"
+                            alt="Jacket" />
                     </picture>
-                    <a href="">
-                        <dl>
-                            <dt>Overalls</dt>
-                            <dd>$ 140</dd>
+                    <a class="bestsellers__link" href="#">
+                        <dl class="bestsellers__desc">
+                            <dt class="bestsellers__thing">Overalls</dt>
+                            <dd class="bestsellers__price">$ 140</dd>
                         </dl>
                     </a>
                 </li>
 
                 <!-- Третья вещь -->
-                <li>
+                <li class="bestsellers__item">
                     <picture>
                         <source type="image/webp" media="(min-width: 1366px)"
                             srcset="img/best-thing-3-desktop.webp 1x, img/best-thing-3-desktop@2x.webp 2x" />
@@ -135,18 +137,19 @@
                         <source media="(min-width: 768px)"
                             srcset="img/best-thing-3-tablet.png 1x, img/best-thing-3-tablet@2x.png 2x" />
                         <source type="image/webp" srcset="img/best-thing-3.webp 1x, img/best-thing-3@2x.webp 2x" />
-                        <img src="img/best-thing-3.jpg" srcset="img/best-thing-3@2x.jpg 2x" alt="Jacket" />
+                        <img class="bestsellers__pic" src="img/best-thing-3.jpg" srcset="img/best-thing-3@2x.jpg 2x"
+                            alt="Jacket" />
                     </picture>
-                    <a href="">
-                        <dl>
-                            <dt>Jacket</dt>
-                            <dd>$ 90</dd>
+                    <a class="bestsellers__link" href="#">
+                        <dl class="bestsellers__desc">
+                            <dt class="bestsellers__thing">Jacket</dt>
+                            <dd class="bestsellers__price">$ 90</dd>
                         </dl>
                     </a>
                 </li>
 
                 <!-- Четвертая вещь -->
-                <li>
+                <li class="bestsellers__item">
                     <picture>
                         <source type="image/webp" media="(min-width: 1366px)"
                             srcset="img/best-thing-4-desktop.webp 1x, img/best-thing-4-desktop@2x.webp 2x" />
@@ -157,37 +160,43 @@
                         <source media="(min-width: 768px)"
                             srcset="img/best-thing-4-tablet.png 1x, img/best-thing-4-tablet@2x.png 2x" />
                         <source type="image/webp" srcset="img/best-thing-4.webp 1x, img/best-thing-4@2x.webp 2x" />
-                        <img src="img/best-thing-4.jpg" srcset="img/best-thing-4@2x.jpg 2x" alt="Jacket" />
+                        <img class="bestsellers__pic" src="img/best-thing-4.jpg" srcset="img/best-thing-4@2x.jpg 2x"
+                            alt="Jacket" />
                     </picture>
-                    <a href="">
-                        <dl>
-                            <dt>Overalls</dt>
-                            <dd>$ 160</dd>
+                    <a class="bestsellers__link" href="#">
+                        <dl class="bestsellers__desc">
+                            <dt class="bestsellers__thing">Overalls</dt>
+                            <dd class="bestsellers__price">$ 160</dd>
                         </dl>
                     </a>
                 </li>
             </ul>
 
-            <a href="#">View all</a>
+            <a class="suggest" href="#"><span>View all</span></a>
         </section>
 
-        <section>
-            <h2>Street fashion collection</h2>
-            <p>Street fashion collection</p>
-            <p>Fall 2019</p>
-            <picture>
-                <source type="image/webp" media="(min-width: 1366px)"
-                    srcset="img/jeans-desktop.webp 1x, img/denim-intro-desktop@2x.webp 2x" />
-                <source media="(min-width: 1300px)"
-                    srcset="img/denim-intro-desktop.png 1x, img/denim-intro-desktop@2x.png 2x" />
-                <source type="image/webp" media="(min-width: 768px)"
-                    srcset="img/denim-intro-tablet.webp 1x, img/denim-intro-tablet@2x.webp 2x" />
-                <source media="(min-width: 768px)"
-                    srcset="img/denim-intro-tablet.png 1x, img/denim-intro-tablet@2x.png 2x" />
-                <source type="image/webp" srcset="img/denim-intro@1x.webp 1x, img/denim-intro@2x.webp 2x" />
-                <img src="img/denim-intro@1x.png" srcset="img/denim-intro@2x.png 2x" alt="Street fashion collection" />
-            </picture>
-            <a href="#">Shop now</a>
+        <section class="fall">
+            <h2 class="visually-hidden">Street fashion collection</h2>
+            <div class="fall__container">
+                <p class="fall__desc">Street fashion collection</p>
+                <p class="fall__name">Fall 2019</p>
+                <a class="fall__link button" href="#">Shop now</a>
+            </div>
+            <div class="fall__pic-wrapper">
+                <picture>
+                    <source type="image/webp" media="(min-width: 1366px)"
+                        srcset="img/jeans-desktop.webp 1x, img/denim-intro-desktop@2x.webp 2x" />
+                    <source media="(min-width: 1300px)"
+                        srcset="img/denim-intro-desktop.png 1x, img/denim-intro-desktop@2x.png 2x" />
+                    <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/denim-intro-tablet.webp 1x, img/denim-intro-tablet@2x.webp 2x" />
+                    <source media="(min-width: 768px)"
+                        srcset="img/denim-intro-tablet.png 1x, img/denim-intro-tablet@2x.png 2x" />
+                    <source type="image/webp" srcset="img/denim-intro@1x.webp 1x, img/denim-intro@2x.webp 2x" />
+                    <img class="fall__pic" src="img/denim-intro@1x.png" srcset="img/denim-intro@2x.png 2x"
+                        alt="Street fashion collection" />
+                </picture>
+            </div>
         </section>
 
         <section>
