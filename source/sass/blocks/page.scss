@@ -5,25 +5,21 @@
         'main'
         'footer';
     overflow-x: hidden;
-    outline: 1px solid tomato;
 }
 
 .page__header {
     grid-area: header;
 
     overflow-x: hidden;
-    outline: 1px solid red;
 }
 
 .page__main {
     grid-area: main;
 
     overflow-x: hidden;
-    outline: 1px solid blue;
 }
 
 .page__footer {
     grid-area: footer;
     overflow-x: hidden;
-    outline: 1px solid green;
 }

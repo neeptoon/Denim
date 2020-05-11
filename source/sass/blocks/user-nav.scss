@@ -7,12 +7,19 @@
     margin-right: 20px;
 }
 
-.user-nav__icon {
+.user-nav__link {
     fill: none;
     stroke: $dark-letter-color;
 
     &:hover,
     &:focus {
+        outline: none;
         stroke: $grey-letter-color;
     }
+
+    &:active {
+        opacity: 0.5;
+    }
 }
+
+
