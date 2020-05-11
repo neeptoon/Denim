@@ -4,26 +4,26 @@
         'header'
         'main'
         'footer';
-    outline: 1px solid tomato;
     overflow-x: hidden;
+    outline: 1px solid tomato;
 }
 
 .page__header {
     grid-area: header;
 
-    outline: 1px solid red;
     overflow-x: hidden;
+    outline: 1px solid red;
 }
 
 .page__main {
     grid-area: main;
 
-    outline: 1px solid blue;
     overflow-x: hidden;
+    outline: 1px solid blue;
 }
 
 .page__footer {
     grid-area: footer;
-    outline: 1px solid green;
     overflow-x: hidden;
+    outline: 1px solid green;
 }

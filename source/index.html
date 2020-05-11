@@ -199,12 +199,12 @@
             </div>
         </section>
 
-        <section>
-            <h2>Shop by categories</h2>
-            <ul>
+        <section class="categories">
+            <h2 class="categories__heading">Shop by category</h2>
+            <ul class="categories__list">
                 <!-- 1 category -->
-                <li>
-                    <a href="#">
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
                         <picture>
                             <source type="image/webp" media="(min-width: 1366px)"
                                 srcset="img/jeans-desktop@1x.webp 1x, img/jeans-desktop@2x.webp 2x" />
@@ -215,34 +215,16 @@
                             <source media="(min-width: 768px)"
                                 srcset="img/jeans-tablet@1x.png 1x, img/jeans-tablet@2x.png 2x" />
                             <source type="image/webp" srcset="img/jeans@1x.webp 1x, img/jeans@2x.webp 2x" />
-                            <img src="img/jeans@1x.png" srcset="img/jeans@2x.png 2x" alt="Street fashion collection" />
+                            <img class="categories__pic" src="img/jeans@1x.png" srcset="img/jeans@2x.png 2x"
+                                alt="Street fashion collection" />
                         </picture>
-                        <h3>Jeans</h3>
+                        <h3 class="categories__thing">Jeans</h3>
                     </a>
                 </li>
 
                 <!-- 2 category -->
-                <li>
-                    <a href="#">
-                        <picture>
-                            <source type="image/webp" media="(min-width: 1366px)"
-                                srcset="img/shirts-desktop.webp 1x, img/shirts-desktop@2x.webp 2x" />
-                            <source media="(min-width: 1300px)"
-                                srcset="img/shirts-desktop.png 1x, img/shirts-desktop@2x.png 2x" />
-                            <source type="image/webp" media="(min-width: 768px)"
-                                srcset="img/shirts-tablet.webp 1x, img/shirts-tablet@2x.webp 2x" />
-                            <source media="(min-width: 768px)"
-                                srcset="img/shirts-tablet.png 1x, img/shirts-tablet@2x.png 2x" />
-                            <source type="image/webp" srcset="img/shirts.webp 1x, img/shirts@2x.webp 2x" />
-                            <img src="img/shirts.png" srcset="img/shirts@2x.png 2x" alt="Street fashion collection" />
-                        </picture>
-                        <h3>Shirts</h3>
-                    </a>
-                </li>
-
-                <!-- 3 category -->
-                <li>
-                    <a href="#">
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
                         <picture>
                             <source type="image/webp" media="(min-width: 1366px)"
                                 srcset="img/overalls-desktop.webp 1x, img/overalls-desktop@2x.webp 2x" />
@@ -253,16 +235,36 @@
                             <source media="(min-width: 768px)"
                                 srcset="img/overalls-tablet.png 1x, img/overalls-tablet@2x.png 2x" />
                             <source type="image/webp" srcset="img/overalls.webp 1x, img/overalls@2x.webp 2x" />
-                            <img src="img/overalls.png" srcset="img/overalls@2x.png 2x"
+                            <img class="categories__pic" src="img/overalls.png" srcset="img/overalls@2x.png 2x"
                                 alt="Street fashion collection" />
                         </picture>
-                        <h3>Overalls</h3>
+                        <h3 class="categories__thing">Overalls</h3>
+                    </a>
+                </li>
+
+                <!-- 3 category -->
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1366px)"
+                                srcset="img/shirts-desktop.webp 1x, img/shirts-desktop@2x.webp 2x" />
+                            <source media="(min-width: 1300px)"
+                                srcset="img/shirts-desktop.png 1x, img/shirts-desktop@2x.png 2x" />
+                            <source type="image/webp" media="(min-width: 768px)"
+                                srcset="img/shirts-tablet.webp 1x, img/shirts-tablet@2x.webp 2x" />
+                            <source media="(min-width: 768px)"
+                                srcset="img/shirts-tablet.png 1x, img/shirts-tablet@2x.png 2x" />
+                            <source type="image/webp" srcset="img/shirts.webp 1x, img/shirts@2x.webp 2x" />
+                            <img class="categories__pic" src="img/shirts.png" srcset="img/shirts@2x.png 2x"
+                                alt="Street fashion collection" />
+                        </picture>
+                        <h3 class="categories__thing">Shirts</h3>
                     </a>
                 </li>
 
                 <!-- 4 category -->
-                <li>
-                    <a href="#">
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
                         <picture>
                             <source type="image/webp" media="(min-width: 1366px)"
                                 srcset="img/jackets-desktop.webp 1x, img/jackets-desktop@2x.webp 2x" />
@@ -273,12 +275,14 @@
                             <source media="(min-width: 768px)"
                                 srcset="img/jackets-tablet.png 1x, img/jackets-tablet@2x.png 2x" />
                             <source type="image/webp" srcset="img/jackets.webp 1x, img/jackets@2x.webp 2x" />
-                            <img src="img/jackets.png" srcset="img/jackets@2x.png 2x" alt="Street fashion collection" />
+                            <img class="categories__pic" src="img/jackets.png" srcset="img/jackets@2x.png 2x"
+                                alt="Street fashion collection" />
                         </picture>
-                        <h3>Jackets</h3>
+                        <h3 class="categories__thing">Jackets</h3>
                     </a>
                 </li>
             </ul>
+            <a class="suggest" href="#"><span>View all</span></a>
         </section>
     </main>
 

@@ -1,0 +1,32 @@
+.categories {
+    padding: 35px $mobilePadding 65px;
+}
+
+.categories__heading {
+    margin: 0 0 30px;
+    font-size: 1.625rem;
+}
+.categories__list {
+    margin: 0 0 5px;
+    padding: 0;
+    column-count: 2;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.categories__item {
+    margin-bottom: 28px;
+}
+
+
+
+.categories__link {
+}
+.categories__pic {
+    margin-bottom: 10px;
+}
+.categories__thing {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
