@@ -1,0 +1,65 @@
+.denim {
+    display: grid;
+    grid-template-rows: auto 47px auto 12px auto 40px auto;
+    padding: 27px $mobilePadding 50px;
+    justify-items: center;
+
+    background-color: $light-background-color;
+}
+
+.denim__pic {
+    position: relative;
+    z-index: 2;
+}
+
+.denim__image-wrapper {
+    position: relative;
+    &::before {
+        content: url('../img/diagonal-small.png');
+        position: absolute;
+        top: -20px;
+        left: -21px;
+    }
+
+        &::after {
+        content: url('../img/diagonal-small.png');
+        position: absolute;
+        top: 190px;
+        left: 113px;
+
+        transform: scale(-1, 1);
+    }
+}
+
+.denim__slogan {
+    margin: 0;
+    color: $grey-letter-color;
+    font-size: 1.12rem;
+
+    grid-row: 3;
+}
+
+.denim__name {
+    grid-row: 5;
+}
+
+.denim__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 202px;
+    max-width: 202px;
+    padding: 23px 10px;
+
+    grid-row: 7;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.7;
+    }
+
+    &:active {
+        opacity: 0.4;
+    }
+}

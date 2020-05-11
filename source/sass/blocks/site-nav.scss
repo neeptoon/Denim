@@ -1,0 +1,22 @@
+.site-nav {
+    width: 75%;
+    margin: 0;
+    list-style: none;
+}
+
+.site-nav__item {
+    &:hover {
+        opacity: 0.5;
+    }
+
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
+.site-nav__item a {
+    &:focus {
+        outline: none;
+        opacity: 0.5;
+    }
+}

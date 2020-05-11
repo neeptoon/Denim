@@ -1,6 +1,10 @@
 .button {
-  display: inline-block;
+    display: inline-block;
 
-  font: inherit;
-  text-align: center;
+
+    color: $light-letter-color;
+    font-family: inherit;
+    text-align: center;
+
+    background-color: $dark-background-color;
 }

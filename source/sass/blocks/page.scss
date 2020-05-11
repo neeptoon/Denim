@@ -1,0 +1,25 @@
+.page {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'main'
+        'footer';
+    overflow-x: hidden;
+}
+
+.page__header {
+    grid-area: header;
+
+    overflow-x: hidden;
+}
+
+.page__main {
+    grid-area: main;
+
+    overflow-x: hidden;
+}
+
+.page__footer {
+    grid-area: footer;
+    overflow-x: hidden;
+}

@@ -1,0 +1,25 @@
+.user-nav {
+    margin: 0;
+    list-style: none;
+}
+
+.user-nav__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.user-nav__link {
+    fill: none;
+    stroke: $dark-letter-color;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        stroke: $grey-letter-color;
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+

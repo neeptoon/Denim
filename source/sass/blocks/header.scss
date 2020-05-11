@@ -1,0 +1,13 @@
+.header {
+    display: grid;
+    padding: 0 $mobilePadding;
+    background-image: linear-gradient(180deg, transparent 0 45%, $light-background-color 45% 100%);
+}
+
+.header__logo {
+    justify-self: center;
+
+    // &:hover {
+    //     opacity: 0.5;
+    // }
+}

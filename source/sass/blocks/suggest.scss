@@ -1,0 +1,22 @@
+.suggest {
+    display: block;
+    justify-content: center;
+
+    text-align: center;
+
+    & span {
+        padding: 0 5px;
+        box-shadow: $light-letter-color 0 3px 0 1px,
+                    $dark-letter-color 0 6px 0;
+    }
+
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.6;
+    }
+
+    &:active {
+        opacity: 0.3;
+    }
+}
