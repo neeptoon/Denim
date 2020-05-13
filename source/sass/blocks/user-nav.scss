@@ -5,6 +5,11 @@
 
 .user-nav__item:not(:last-child) {
     margin-right: 20px;
+
+
+    @media (min-width: $tabletWidth) {
+        margin-right: 30px;
+    }
 }
 
 .user-nav__link {
@@ -19,6 +24,13 @@
 
     &:active {
         opacity: 0.5;
+    }
+}
+
+.user-nav__icon {
+    @media (min-width: $tabletWidth) {
+        width: 22px;
+        height: 22px;
     }
 }
 

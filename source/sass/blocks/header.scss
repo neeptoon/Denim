@@ -2,12 +2,12 @@
     display: grid;
     padding: 0 $mobilePadding;
     background-image: linear-gradient(180deg, transparent 0 45%, $light-background-color 45% 100%);
+
+    @media (min-width: $tabletWidth) {
+        padding: 0 $tabletPadding;
+    }
 }
 
 .header__logo {
     justify-self: center;
-
-    // &:hover {
-    //     opacity: 0.5;
-    // }
 }

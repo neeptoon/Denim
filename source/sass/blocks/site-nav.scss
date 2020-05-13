@@ -12,6 +12,12 @@
     &:not(:last-child) {
         margin-right: 25px;
     }
+
+    @media (min-width: $tabletWidth) {
+        &:not(:last-child) {
+            margin-right: 35px;
+        }
+    }
 }
 
 .site-nav__item a {

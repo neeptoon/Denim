@@ -11,6 +11,10 @@
     &:active {
         opacity: 0.5;
     }
+
+    @media (min-width: $tabletWidth) {
+        padding: 25px 0;
+    }
 }
 
 .logo--footer {
