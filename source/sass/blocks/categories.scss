@@ -8,18 +8,26 @@
 }
 
 .categories__list {
-    margin: 0 0 5px;
+    display: grid;
+
+    width: min-content;
+    margin: 0 auto 5px;
     padding: 0;
-    column-gap: 30px;
-    column-width: 130px;
+
     list-style: none;
+    grid-template-columns: 130px 130px;
+    grid-gap: 30px;
 }
 
 .categories__item {
     display: flex;
     justify-content: center;
-    margin: 0 auto 28px;
+    margin: 0 auto;
     break-inside: avoid;
+}
+
+.categories__item--cross {
+    transform: translateY(-34px);
 }
 
 .categories__pic {
