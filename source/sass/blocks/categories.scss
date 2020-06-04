@@ -9,12 +9,14 @@
 
 .categories__list {
     display: grid;
-    grid-template-columns: 130px 130px;
-    grid-gap: 30px;
-    margin: 0 0 5px;
+
+    width: min-content;
+    margin: 0 auto 5px;
     padding: 0;
 
     list-style: none;
+    grid-template-columns: 130px 130px;
+    grid-gap: 30px;
 }
 
 .categories__item {
