@@ -1,10 +1,14 @@
 .denim {
     display: grid;
-    grid-template-rows: auto 47px auto 12px auto 40px auto;
-    padding: 27px $mobilePadding 50px;
+    padding: 25px $mobilePadding 50px;
     justify-items: center;
 
     background-color: $light-background-color;
+
+    @media (min-width: $tabletWidth) {
+        grid-auto-flow: column;
+        padding: 82px $tabletPadding 80px;
+    }
 }
 
 .denim__pic {
@@ -14,6 +18,8 @@
 
 .denim__image-wrapper {
     position: relative;
+    margin-bottom: 45px;
+
     &::before {
         content: url('../img/diagonal-small.png');
         position: absolute;
@@ -21,7 +27,7 @@
         left: -21px;
     }
 
-        &::after {
+    &::after {
         content: url('../img/diagonal-small.png');
         position: absolute;
         top: 190px;
@@ -29,18 +35,44 @@
 
         transform: scale(-1, 1);
     }
+
+    @media (min-width: $tabletWidth) {
+
+        order: 1;
+    }
+}
+
+.denim__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+
+    @media (min-width: $tabletWidth) {
+        padding: 71px 82px 15px;
+    }
+
 }
 
 .denim__slogan {
-    margin: 0;
+    margin: 0 0 10px;
     color: $grey-letter-color;
     font-size: 1.12rem;
 
-    grid-row: 3;
+    @media (min-width: $tabletWidth) {
+        align-self: start;
+        margin: 0 0 20px;
+    }
 }
 
 .denim__name {
-    grid-row: 5;
+    margin: 0 0 42px;
+
+    @media (min-width: $tabletWidth) {
+        width: 230px;
+        margin: 0 0 55px;
+    }
+
 }
 
 .denim__link {
@@ -49,9 +81,9 @@
     align-items: center;
     min-width: 202px;
     max-width: 202px;
+    margin: 0 auto;
     padding: 23px 10px;
 
-    grid-row: 7;
 
     &:hover,
     &:focus {
@@ -61,5 +93,12 @@
 
     &:active {
         opacity: 0.4;
+    }
+
+    @media (min-width: $tabletWidth) {
+        align-self: start;
+        width: 220px;
+        max-width: none;
+        margin: 0;
     }
 }

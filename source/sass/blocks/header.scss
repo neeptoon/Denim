@@ -5,6 +5,7 @@
 
     @media (min-width: $tabletWidth) {
         padding: 0 $tabletPadding;
+        background-image: linear-gradient(180deg, transparent 0 100%);
     }
 }
 
