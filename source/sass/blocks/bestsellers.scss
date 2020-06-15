@@ -1,11 +1,21 @@
 .bestsellers {
     padding: 52px $mobilePadding 65px;
+
+    @media (min-width: $tabletWidth) {
+        position: relative;
+        padding: 95px $tabletPadding 65px;
+    }
 }
 
 .bestsellers__heading {
     margin: 0 0 33px;
     font-size: 1.625rem;
     line-height: 1.2;
+
+    @media (min-width: $tabletWidth) {
+        margin: 0 0 50px;
+        font-size: 1.725rem;
+    }
 }
 
 .bestsellers__list {
@@ -17,6 +27,11 @@
     row-gap: 25px;
 
     list-style: none;
+
+    @media (min-width: $tabletWidth) {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        row-gap: 45px;
+    }
 }
 
 .bestsellers__item {
@@ -25,6 +40,10 @@
 
 .bestsellers__pic {
     margin-bottom: 10px;
+
+    @media (min-width: $tabletWidth) {
+        margin-bottom: 25px;
+    }
 }
 
 .bestsellers__desc {
@@ -33,12 +52,20 @@
 
 .bestsellers__thing {
     margin-bottom: 5px;
+
+    @media (min-width: $tabletWidth) {
+        font-size: 1.15rem;
+    }
 }
 
 .bestsellers__price {
     margin: 0;
     font-weight: 900;
     font-size: 0.9rem;
+
+    @media (min-width: $tabletWidth) {
+        font-size: 1rem;
+    }
 }
 
 .bestsellers__link {

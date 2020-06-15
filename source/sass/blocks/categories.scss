@@ -1,5 +1,9 @@
 .categories {
     padding: 35px $mobilePadding 65px;
+
+    @media (min-width: $tabletWidth) {
+        position: relative;
+    }
 }
 
 .categories__heading {

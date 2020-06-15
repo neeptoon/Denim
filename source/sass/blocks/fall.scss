@@ -1,16 +1,36 @@
 .fall {
     padding: 15px $mobilePadding 20px;
-    background-image: url("../img/diagonal-big.png");
+    background-image: url("../img/big-line-tablet.png");
     background-repeat: repeat-x;
+
+    @media (min-width: $tabletWidth) {
+        display: flex;
+        padding: 0 $tabletPadding 0;
+        background-repeat: repeat;
+        background-position: right top;
+        background-clip: content-box;
+    }
 }
 
 .fall__container {
     display: flex;
     flex-direction: column;
-        align-items: center;
+    align-items: center;
     padding-top: 35px;
     padding-bottom: 40px;
     background-color: $light-background-color;
+
+    @media (min-width: $tabletWidth) {
+        justify-content: center;
+
+        align-items: flex-start;
+        order: 1;
+        width: 48%;
+        padding: 20px 20px 20px 0;
+
+
+        background-clip: content-box;
+    }
 
 }
 
@@ -26,6 +46,10 @@
     font-weight: bold;
     font-size: 1.625rem;
 
+    @media (min-width: $tabletWidth) {
+        font-size: 2.025rem;
+    }
+
 }
 
 .fall__pic-wrapper {
@@ -34,11 +58,16 @@
     width: 100vw;
     overflow: hidden;
     transform: translate(-50%);
+
+    @media (min-width: $tabletWidth) {
+        left: 0;
+        width: 52%;
+        transform: none;
+    }
 }
 
 .fall__pic {
     width: 100%;
-
 }
 
 .fall__link {
@@ -53,6 +82,13 @@
 
     &:active {
         opacity: 0.4;
+    }
+}
+
+.fall__padding {
+
+    @media (min-width: $tabletWidth) {
+        margin-left: 50px;
     }
 }
 

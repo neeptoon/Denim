@@ -6,8 +6,7 @@
 
     & span {
         padding: 0 5px;
-        box-shadow: $light-letter-color 0 3px 0 1px,
-                    $dark-letter-color 0 6px 0;
+        box-shadow: $light-letter-color 0 3px 0 1px, $dark-letter-color 0 6px 0;
     }
 
     &:hover,
@@ -18,5 +17,13 @@
 
     &:active {
         opacity: 0.3;
+    }
+
+    @media (min-width: $tabletWidth) {
+        position: absolute;
+        top: 99px;
+        right: 47px;
+
+        font-size: 1.1rem;
     }
 }
