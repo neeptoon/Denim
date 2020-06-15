@@ -6,8 +6,11 @@
     background-color: $light-background-color;
 
     @media (min-width: $tabletWidth) {
-        grid-auto-flow: column;
-        padding: 82px $tabletPadding 80px;
+        grid-template-columns: 1fr 1fr;
+
+        grid-column-gap: 45px;
+        grid-row-gap: 52px;
+        padding: 82px $tabletPadding 27px;
     }
 }
 
@@ -30,15 +33,28 @@
     &::after {
         content: url('../img/diagonal-small.png');
         position: absolute;
-        top: 190px;
-        left: 113px;
+        right: -20px;
+        bottom: -24px;
 
         transform: scale(-1, 1);
     }
 
     @media (min-width: $tabletWidth) {
-
         order: 1;
+        margin-bottom: 0;
+
+        &::before {
+            content: url('../img/big-diagonal-tablet.png');
+            top: -28px;
+            left: -31px;
+        }
+
+        &::after {
+            content: url('../img/big-diagonal-tablet.png');
+            right: -28px;
+            bottom: -31px;
+        }
+
     }
 }
 
@@ -49,7 +65,8 @@
     width: max-content;
 
     @media (min-width: $tabletWidth) {
-        padding: 71px 82px 15px;
+        justify-self: flex-end;
+        align-self: flex-end;
     }
 
 }
@@ -100,5 +117,64 @@
         width: 220px;
         max-width: none;
         margin: 0;
+    }
+}
+
+.denim__social {
+    position: relative;
+    display: none;
+
+    @media (min-width: $tabletWidth) {
+        display: block;
+
+        order: 2;
+        width: 100%;
+        grid-column: 1 / -1;
+    }
+}
+
+.denim__social-list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+
+    font-size: 14px;
+    list-style: none;
+}
+
+.denim__social-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.denim__social-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.5;
+    }
+}
+
+.denim__social-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url('../../img/arrow-bottom.svg');
+    background-repeat: no-repeat;
+    border: none;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.6;
+    }
+
+    &:active {
+        opacity: 0.3;
     }
 }
