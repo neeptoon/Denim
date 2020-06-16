@@ -3,12 +3,18 @@
 
     @media (min-width: $tabletWidth) {
         position: relative;
+        padding: 95px $tabletPadding 30px;
     }
 }
 
 .categories__heading {
     margin: 0 0 30px;
     font-size: 1.625rem;
+
+    @media (min-width: $tabletWidth) {
+        margin: 0 0 50px;
+        font-size: 1.745rem;
+    }
 }
 
 .categories__list {
@@ -21,6 +27,11 @@
     list-style: none;
     grid-template-columns: 130px 130px;
     grid-gap: 30px;
+
+    @media (min-width: $tabletWidth) {
+        grid-template-columns: repeat(2, 325px);
+        grid-row-gap: 45px;
+    }
 }
 
 .categories__item {
@@ -32,15 +43,27 @@
 
 .categories__item--cross {
     transform: translateY(-34px);
+
+    @media (min-width: $tabletWidth) {
+        transform: translateY(-59px);
+    }
 }
 
 .categories__pic {
     margin-bottom: 10px;
+
+    @media (min-width: $tabletWidth) {
+        margin-bottom: 25px;
+    }
 }
 .categories__thing {
     margin: 0;
     font-weight: 500;
     font-size: 1rem;
+
+    @media (min-width: $tabletWidth) {
+        font-size: 1.125rem;
+    }
 }
 
 
