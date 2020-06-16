@@ -10,6 +10,11 @@
         background-position: right top;
         background-clip: content-box;
     }
+
+    @media (min-width: $desktopWidth) {
+        padding: 0 $desktopPadding 20px;
+        background-image: url('../img/dagonal-desktop.png');
+    }
 }
 
 .fall__container {
@@ -32,6 +37,10 @@
         background-clip: content-box;
     }
 
+    @media (min-width: $desktopWidth) {
+        padding: 30px 70px 30px 0;
+    }
+
 }
 
 .fall__desc {
@@ -50,6 +59,10 @@
         font-size: 2.025rem;
     }
 
+    @media (min-width: $desktopWidth) {
+        margin: 0 0 45px;
+    }
+
 }
 
 .fall__pic-wrapper {
@@ -63,6 +76,10 @@
         left: 0;
         width: 52%;
         transform: none;
+    }
+
+    @media (min-width: $desktopWidth) {
+        width: 72%;
     }
 }
 
@@ -83,12 +100,20 @@
     &:active {
         opacity: 0.4;
     }
+
+    @media (min-width: $desktopWidth) {
+        width: 200px;
+    }
 }
 
 .fall__padding {
 
     @media (min-width: $tabletWidth) {
         margin-left: 50px;
+    }
+
+    @media (min-width: $desktopWidth) {
+        margin-left: 75px;
     }
 }
 

@@ -5,6 +5,10 @@
         position: relative;
         padding: 95px $tabletPadding 65px;
     }
+
+    @media (min-width: $desktopWidth) {
+        padding: 125px $desktopPadding 90px;
+    }
 }
 
 .bestsellers__heading {
@@ -15,6 +19,11 @@
     @media (min-width: $tabletWidth) {
         margin: 0 0 50px;
         font-size: 1.725rem;
+    }
+
+    @media (min-width: $desktopWidth) {
+        margin: 0 0 60px;
+        font-size: 1.925rem;
     }
 }
 

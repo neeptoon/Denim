@@ -75,6 +75,10 @@
         grid-column-gap: 5%;
         justify-content: center;
     }
+
+    @media (min-width: $desktopWidth) {
+        grid-column-gap: 2%;
+    }
 }
 
 .footer__social-icon {

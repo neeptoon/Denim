@@ -5,6 +5,10 @@
         position: relative;
         padding: 95px $tabletPadding 30px;
     }
+
+    @media (min-width: $desktopWidth) {
+        padding: 107px $desktopPadding 115px;
+    }
 }
 
 .categories__heading {
@@ -14,6 +18,11 @@
     @media (min-width: $tabletWidth) {
         margin: 0 0 50px;
         font-size: 1.745rem;
+    }
+
+    @media (min-width: $desktopWidth) {
+        margin: 0 0 65px;
+        font-size: 1.955rem;
     }
 }
 
@@ -32,6 +41,12 @@
         grid-template-columns: repeat(2, 325px);
         grid-row-gap: 45px;
     }
+
+    @media (min-width: $desktopWidth) {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
 .categories__item {
@@ -46,6 +61,11 @@
 
     @media (min-width: $tabletWidth) {
         transform: translateY(-59px);
+    }
+
+    @media (min-width: $desktopWidth) {
+        order: 1;
+        transform: none;
     }
 }
 
