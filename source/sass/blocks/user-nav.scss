@@ -1,6 +1,12 @@
 .user-nav {
     margin: 0;
     list-style: none;
+
+    @media (min-width: $desktopWidth) {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 50px 0 0;
+    }
 }
 
 .user-nav__item:not(:last-child) {
@@ -9,6 +15,12 @@
 
     @media (min-width: $tabletWidth) {
         margin-right: 30px;
+    }
+
+    @media (min-width: $desktopWidth) {
+        
+        margin-right: 0;
+        margin-bottom: 32px;
     }
 }
 

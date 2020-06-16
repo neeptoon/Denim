@@ -2,6 +2,13 @@
     width: 75%;
     margin: 0;
     list-style: none;
+
+    @media (min-width: $desktopWidth) {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        padding: 40px 0 0 55px;
+    }
 }
 
 .site-nav__item {
@@ -18,7 +25,16 @@
             margin-right: 35px;
         }
     }
+
+    @media (min-width: $desktopWidth) {
+        &:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 27px;
+        }
+    }
 }
+
+
 
 .site-nav__item a {
     &:focus {

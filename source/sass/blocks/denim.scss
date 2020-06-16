@@ -1,4 +1,5 @@
 .denim {
+    position: relative;
     display: grid;
     padding: 25px $mobilePadding 50px;
     justify-items: center;
@@ -11,6 +12,12 @@
         grid-column-gap: 45px;
         grid-row-gap: 52px;
         padding: 82px $tabletPadding 27px;
+    }
+
+    @media (min-width: $desktopWidth) {
+        grid-template-columns: 470px 1fr;
+        grid-column-gap: 100px;
+        padding: 50px $desktopPadding 50px;
     }
 }
 
@@ -54,7 +61,23 @@
             right: -28px;
             bottom: -31px;
         }
+    }
 
+    @media (min-width: $desktopWidth) {
+        display: flex;
+        justify-self: flex-start;
+
+        &::before {
+            content: url('../img/diag-desktop.png');
+            top: -51px;
+            left: -55px;
+        }
+
+        &::after {
+            content: url('../img/diag-desktop.png');
+            right: -51px;
+            bottom: -55px;
+        }
     }
 }
 
@@ -67,6 +90,10 @@
     @media (min-width: $tabletWidth) {
         justify-self: flex-end;
         align-self: flex-end;
+    }
+
+    @media (min-width: $desktopWidth) {
+        align-self: center;
     }
 
 }
@@ -88,6 +115,10 @@
     @media (min-width: $tabletWidth) {
         width: 230px;
         margin: 0 0 55px;
+    }
+
+    @media (min-width: $desktopWidth) {
+        width: 305px;
     }
 
 }
@@ -131,6 +162,12 @@
         width: 100%;
         grid-column: 1 / -1;
     }
+
+    @media (min-width: $desktopWidth) {
+        position: absolute;
+        right: 0;
+        bottom: 32px;
+    }
 }
 
 .denim__social-list {
@@ -141,10 +178,20 @@
 
     font-size: 14px;
     list-style: none;
+
+    @media (min-width: $desktopWidth) {
+        flex-direction: column;
+        align-items: flex-end;
+    }
 }
 
 .denim__social-item:not(:last-child) {
     margin-right: 35px;
+
+    @media (min-width: $desktopWidth) {
+        order: 1;
+        margin-right: 0;
+    }
 }
 
 .denim__social-link {
@@ -176,5 +223,9 @@
 
     &:active {
         opacity: 0.3;
+    }
+
+    @media (min-width: $desktopWidth) {
+        top: 45px;
     }
 }

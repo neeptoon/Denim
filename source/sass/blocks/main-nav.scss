@@ -4,9 +4,12 @@
 
     @media (min-width: $tabletWidth) {
         position: absolute;
-        left: 50%;
         top: 73px;
+        left: 50%;
+
+        z-index: 1;
         width: 100%;
+        max-width: 1560px;
         padding: 0 $tabletPadding;
         transform: translate(-50%);
     }
