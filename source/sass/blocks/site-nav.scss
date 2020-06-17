@@ -2,7 +2,9 @@
     width: 75%;
     margin: 0;
     list-style: none;
+}
 
+.site-nav--desktop {
     @media (min-width: $desktopWidth) {
         display: flex;
         flex-direction: column;
@@ -25,7 +27,9 @@
             margin-right: 35px;
         }
     }
+}
 
+.site-nav__item--desktop {
     @media (min-width: $desktopWidth) {
         &:not(:last-child) {
             margin-right: 0;

@@ -1,7 +1,9 @@
 .main-nav {
     display: flex;
     justify-content: space-between;
+}
 
+.main-nav--index {
     @media (min-width: $tabletWidth) {
         position: absolute;
         top: 73px;
