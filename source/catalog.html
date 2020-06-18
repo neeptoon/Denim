@@ -22,7 +22,13 @@
         </a>
 
         <nav class="main-nav main-nav--catalog">
-            <ul class="main-nav__list site-nav">
+            <button class="main-nav__button" aria-expanded="false" aria-controls="main-nav__list">
+                <svg class="main-nav__icon" aria-hidden="true" width="32" height="32">
+                    <use class="main-nav__icon-menu" href="img/sprite.svg#icon-menu"></use>
+                    <use class="main-nav__icon-cross" href="img/sprite.svg#icon-cross"></use>
+                </svg>
+            </button>
+            <ul class="main-nav__list site-nav site-nav--catalog" id="main-nav__list">
                 <li class="site-nav__item"><a href="#">Woman</a></li>
                 <li class="site-nav__item"><a href="#">Man</a></li>
                 <li class="site-nav__item"><a href="#">New</a></li>
@@ -48,6 +54,24 @@
             </ul>
         </nav>
     </header>
+
+
+
+
+
+    <script>
+        (() => {
+            const menuButton = document.querySelector('.main-nav__button');
+            const menuList = document.querySelector('.site-nav--catalog');
+
+            menuButton.addEventListener('click', () => {
+                let expanded = menuButton.getAttribute('aria-expanded') === 'true';
+                menuButton.setAttribute('aria-expanded', !expanded);
+                menuButton.classList.toggle('main-nav__button--open');
+                menuList.classList.toggle('site-nav--catalog-open');
+            });
+        })();
+    </script>
 
 </body>
 

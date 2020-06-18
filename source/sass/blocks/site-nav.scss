@@ -13,6 +13,15 @@
     }
 }
 
+.site-nav--catalog {
+    display: none;
+}
+
+.site-nav--catalog-open {
+    display: block;
+    width: 50%;
+}
+
 .site-nav__item {
     &:hover {
         opacity: 0.5;

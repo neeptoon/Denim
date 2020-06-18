@@ -31,3 +31,38 @@
         padding: 33px 0 20px;
     }
 }
+
+.main-nav__button {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.6;
+    }
+}
+
+.main-nav__icon {
+    display: block;
+    stroke: $dark-letter-color;
+}
+
+.main-nav__icon-menu,
+.main-nav__button--open .main-nav__icon-cross {
+    display: block;
+}
+
+.main-nav__icon-cross,
+.main-nav__button--open .main-nav__icon-menu {
+    display: none;
+}
+
+
+
+
