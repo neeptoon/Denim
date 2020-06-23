@@ -12,14 +12,19 @@
 .header--catalog {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-image: none;
+
 }
 
 .header__logo {
     justify-self: center;
+    padding: 18px 0;
 }
 
 .header__logo--catalog {
     grid-column: 1/-1;
     grid-row: 1/2;
     z-index: 2;
+
+    padding: 25px 0;
 }

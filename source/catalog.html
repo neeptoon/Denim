@@ -23,7 +23,7 @@
 
         <nav class="main-nav main-nav--catalog">
             <button class="main-nav__button" aria-expanded="false" aria-controls="main-nav__list">
-                <svg class="main-nav__icon" aria-hidden="true" width="32" height="32">
+                <svg class="main-nav__icon" aria-hidden="true" width="30" height="30">
                     <use class="main-nav__icon-menu" href="img/sprite.svg#icon-menu"></use>
                     <use class="main-nav__icon-cross" href="img/sprite.svg#icon-cross"></use>
                 </svg>
@@ -55,6 +55,355 @@
         </nav>
     </header>
 
+    <main class="page__main main">
+
+        <h1 class="visually-hidden">Catalog women's jackets</h1>
+
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Woman</a>
+            </li>
+            <li class="breadcrumbs__item">
+                <a class="breadcrumbs__current">Jackets</a>
+            </li>
+        </ul>
+
+        <section class="filters">
+
+            <h2 class="filters__heading">
+                <button class="filters__button" aria-expanded="false">
+                    Filter by
+                    <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                        <use xlink:href="img/sprite.svg#icon-filter-button"></use>
+                    </svg>
+                </button>
+            </h2>
+
+            <div class="filters__all" hidden>
+                <h3>Filters</h3>
+                <button>Clear all</button>
+                <button>Close</button>
+
+                <ul>
+                    <li>
+                        <h2 class="filters__heading">
+                            <button class="filters__button" aria-expanded="false">
+                                Price
+                                <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                                    <use xlink:href="img/sprite.svg#icon-filter-button"></use>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div hidden>
+                            some filter
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="filters__heading">
+                            <button class="filters__button" aria-expanded="false">
+                                Color
+                                <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                                    <use xlink:href="img/sprite.svg#icon-filter-button"></use>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div hidden>
+                            some filter
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="filters__heading">
+                            <button class="filters__button" aria-expanded="false">
+                                Collection
+                                <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                                    <use xlink:href="img/sprite.svg#icon-filter-button"></use>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div hidden>
+                            some filter
+                        </div>
+                    </li>
+
+                </ul>
+
+                <button>Apply(9 products)</button>
+            </div>
+        </section>
+
+        <section class="jackets">
+
+            <ul class="jackets__list">
+
+                <!-- first -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-1.webp 1x, img/jacket-desktop-1@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-1@1x.png 1x, img/jacket-desktop-1@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-1.webp 1x, img/jacket-tablet-1@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-1.png 1x, img/jacket-tablet-1@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-1.webp 1x, img/jacket-mobile-1@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-1.png" srcset="img/jacket-mobile-1@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 40</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- second -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-2.webp 1x, img/jacket-desktop-2@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-2@1x.png 1x, img/jacket-desktop-2@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-2.webp 1x, img/jacket-tablet-2@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-2.png 1x, img/jacket-tablet-2@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-2.webp 1x, img/jacket-mobile-2@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-2.png" srcset="img/jacket-mobile-2@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 70</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- third -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-3.webp 1x, img/jacket-desktop-3@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-3@1x.png 1x, img/jacket-desktop-3@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-3.webp 1x, img/jacket-tablet-3@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-3.png 1x, img/jacket-tablet-3@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-3.webp 1x, img/jacket-mobile-3@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-3.png" srcset="img/jacket-mobile-3@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 50</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- fourth -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-4.webp 1x, img/jacket-desktop-4@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-4@1x.png 1x, img/jacket-desktop-4@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-4.webp 1x, img/jacket-tablet-4@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-4.png 1x, img/jacket-tablet-4@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-4.webp 1x, img/jacket-mobile-4@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-4.png" srcset="img/jacket-mobile-4@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 60</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- fifth -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-5.webp 1x, img/jacket-desktop-5@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-5@1x.png 1x, img/jacket-desktop-5@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-5.webp 1x, img/jacket-tablet-5@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-5.png 1x, img/jacket-tablet-5@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-main.webp 1x, img/jacket-mobile-main@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-main.png"
+                            srcset="img/jacket-mobile-main@2x.jpg 2x" alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 120</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- sixth -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-5.webp 1x, img/jacket-desktop-5@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-5@1x.png 1x, img/jacket-desktop-5@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-5.webp 1x, img/jacket-tablet-5@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-5.png 1x, img/jacket-tablet-5@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-5.webp 1x, img/jacket-mobile-5@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-5.png" srcset="img/jacket-mobile-5@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 40</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- seventh -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-6.webp 1x, img/jacket-desktop-6@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-6@1x.png 1x, img/jacket-desktop-6@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-6.webp 1x, img/jacket-tablet-6@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-6.png 1x, img/jacket-tablet-6@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-6.webp 1x, img/jacket-mobile-6@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-6.png" srcset="img/jacket-mobile-6@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 40</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- eighth -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-7.webp 1x, img/jacket-desktop-7@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-7@1x.png 1x, img/jacket-desktop-7@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-7.webp 1x, img/jacket-tablet-7@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-7.png 1x, img/jacket-tablet-7@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-7.webp 1x, img/jacket-mobile-7@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-7.png" srcset="img/jacket-mobile-7@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 40</dd>
+                        </dl>
+                    </a>
+                </li>
+
+                <!-- ninth -->
+                <li class="jakets__item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1366px)"
+                            srcset="img/jacket-desktop-8.webp 1x, img/jacket-desktop-8@2x.webp 2x" />
+                        <source media="(min-width: 1300px)"
+                            srcset="img/jacket-desktop-8@1x.png 1x, img/jacket-desktop-8@2x.png 2x" />
+                        <source type="image/webp" media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-8.webp 1x, img/jacket-tablet-8@2x.webp 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="img/jacket-tablet-8.png 1x, img/jacket-tablet-8@2x.png 2x" />
+                        <source type="image/webp"
+                            srcset="img/jacket-mobile-8.webp 1x, img/jacket-mobile-8@2x.webp 2x" />
+                        <img class="jackets__pic" src="img/jacket-mobile-8.png" srcset="img/jacket-mobile-8@2x.jpg 2x"
+                            alt="Jacket" />
+                    </picture>
+                    <a class="jackets__link" href="#">
+                        <dl class="jackets__desc">
+                            <dt class="jackets__thing">Jacket</dt>
+                            <dd class="jackets__price">$ 40</dd>
+                        </dl>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="jackets__show show">
+                <p class="show__amount">Showing 9 of 45 items</p>
+                <button class="show__button button">Load more</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="page__footer footer ">
+
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item"><a class="logo logo--footer" href="#">
+                        <svg width="75" height="19">
+                            <use xlink:href="img/sprite.svg#icon-logo"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__nav-item"><a href="#">Shop</a></li>
+                <li class="footer__nav-item"><a href="#">Delivery</a></li>
+                <li class="footer__nav-item"><a href="#">Sitemap</a></li>
+                <li class="footer__nav-item"><a href="#">Service</a></li>
+                <li class="footer__nav-item"><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <ul class="footer__social-list">
+            <li class="footer__social-item"><a class="footer__social-icon" href="#"><span class="visually-hidden">our
+                        shop in the
+                        facebook</span><svg width="20" height="20">
+                        <use xlink:href="img/sprite.svg#icon-fb"></use>
+                    </svg></a></li>
+            <li class="footer__social-item"><a class="footer__social-icon" href="#"><span class="visually-hidden">our
+                        shop in the
+                        instagramm</span><svg width="20" height="20">
+                        <use xlink:href="img/sprite.svg#icon-instagramm"></use>
+                    </svg></a></li>
+            <li class="footer__social-item"><a class="footer__social-icon" href="#"><span class="visually-hidden">our
+                        shop in the
+                        pinterest</span><svg width="20" height="20">
+                        <use xlink:href="img/sprite.svg#icon-pinterest"></use>
+                    </svg></a></li>
+            <li class="footer__social-item"><a class="footer__social-icon" href="#"><span class="visually-hidden">our
+                        shop in the twitter</span><svg width="20" height="20">
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg></a></li>
+        </ul>
+
+    </footer>
+
 
 
 
@@ -63,6 +412,7 @@
         (() => {
             const menuButton = document.querySelector('.main-nav__button');
             const menuList = document.querySelector('.site-nav--catalog');
+            const headings = document.querySelectorAll('h2');
 
             menuButton.addEventListener('click', () => {
                 let expanded = menuButton.getAttribute('aria-expanded') === 'true';
@@ -70,6 +420,19 @@
                 menuButton.classList.toggle('main-nav__button--open');
                 menuList.classList.toggle('site-nav--catalog-open');
             });
+
+            Array.prototype.forEach.call(headings, heading => {
+                let btn = heading.querySelector('button');
+                let target = heading.nextElementSibling;
+
+                btn.onclick = () => {
+                    let expanded = btn.getAttribute('aria-expanded') === 'true' || false;
+
+                    btn.setAttribute('aria-expanded', !expanded);
+                    target.hidden = expanded;
+                }
+            });
+
         })();
     </script>
 

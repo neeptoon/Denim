@@ -1,0 +1,12 @@
+.filters__button {
+    all: inherit;
+
+    &:hover,
+    &:focus {
+        opacity: 0.6;
+    }
+}
+
+[aria-expanded="true"] .filters__icon {
+    transform: rotate(180deg);
+}

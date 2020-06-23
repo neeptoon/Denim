@@ -18,8 +18,16 @@
 }
 
 .site-nav--catalog-open {
-    display: block;
-    width: 50%;
+    position: absolute;
+    top: 51px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;
+    background-color: $light-background-color;
 }
 
 .site-nav__item {
