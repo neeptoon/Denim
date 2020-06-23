@@ -1,6 +1,6 @@
 .breadcrumbs {
     display: flex;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 5px $mobilePadding;
     color: $grey-letter-color;
     font-size: 1.125rem;
@@ -20,6 +20,11 @@
 }
 
 .breadcrumbs__link {
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.6;
+    }
 }
 
 .breadcrumbs__current {

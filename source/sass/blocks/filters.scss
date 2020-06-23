@@ -1,8 +1,27 @@
-.filters__button {
-    all: inherit;
+.filters {
+    padding: 0 $mobilePadding;
+}
 
+.filters__heading {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.125rem;
+
+    border: 2px solid $dark-letter-color;
+}
+
+.filters__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 15px;
+
+    background-color: transparent;
+    border: none;
     &:hover,
     &:focus {
+        outline: none;
         opacity: 0.6;
     }
 }
