@@ -1,0 +1,35 @@
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.show__amount {
+    position: relative;
+    margin: 0 0 35px;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-image: linear-gradient(90deg, $dark-background-color 0 25%, $light-background-color 25% 100%);
+
+    }
+
+}
+
+.show__button {
+    width: 100%;
+    padding: 23px 0;
+    border: none;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,37 @@
+.popup {
+    left: 50%;
+    display: none;
+    width: 100vw;
+    padding: 0 15px;
+    background-color: white;
+    transform: translate(-50%);
+}
+
+.popup__heading {
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 1;
+
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.popup__heading + .popup__button {
+    justify-self: start;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.popup__button {
+    justify-self: end;
+    grid-column: 1;
+    grid-row: 1;
+
+    font-size: 0.9rem;
+
+    background: transparent;
+    border: none;
+}
+
+
+

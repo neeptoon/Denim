@@ -79,17 +79,17 @@
                 </button>
             </h2>
 
-            <div class="filters__all" hidden>
-                <h3>Filters</h3>
-                <button>Clear all</button>
-                <button>Close</button>
+            <div class="filters__all popup" hidden>
+                <h3 class="popup__heading">Filters</h3>
+                <button class="popup__button">Clear all</button>
+                <button class="popup__button">Close</button>
 
-                <ul>
-                    <li>
-                        <h2 class="filters__heading">
-                            <button class="filters__button" aria-expanded="false">
+                <ul class="filters__list">
+                    <li class="filters__item">
+                        <h2 class="filters__heading filters__heading--naked">
+                            <button class="filters__button filters__button--small" aria-expanded="false">
                                 Price
-                                <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                                <svg class="filters__icon" width="20" height="20" aria-hidden="true" focusable="false">
                                     <use xlink:href="img/sprite.svg#icon-filter-button"></use>
                                 </svg>
                             </button>
@@ -98,11 +98,11 @@
                             some filter
                         </div>
                     </li>
-                    <li>
-                        <h2 class="filters__heading">
-                            <button class="filters__button" aria-expanded="false">
+                    <li class="filters__item">
+                        <h2 class="filters__heading filters__heading--naked">
+                            <button class="filters__button filters__button--small" aria-expanded="false">
                                 Color
-                                <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                                <svg class="filters__icon" width="20" height="20" aria-hidden="true" focusable="false">
                                     <use xlink:href="img/sprite.svg#icon-filter-button"></use>
                                 </svg>
                             </button>
@@ -111,11 +111,11 @@
                             some filter
                         </div>
                     </li>
-                    <li>
-                        <h2 class="filters__heading">
-                            <button class="filters__button" aria-expanded="false">
+                    <li class="filters__item">
+                        <h2 class="filters__heading filters__heading--naked">
+                            <button class="filters__button filters__button--small" aria-expanded="false">
                                 Collection
-                                <svg class="filters__icon" width="32" height="32" aria-hidden="true" focusable="false">
+                                <svg class="filters__icon" width="20" height="20" aria-hidden="true" focusable="false">
                                     <use xlink:href="img/sprite.svg#icon-filter-button"></use>
                                 </svg>
                             </button>
@@ -124,10 +124,8 @@
                             some filter
                         </div>
                     </li>
-
                 </ul>
-
-                <button>Apply(9 products)</button>
+                <button class="filters__apply-button button">Apply(9 products)</button>
             </div>
         </section>
 
